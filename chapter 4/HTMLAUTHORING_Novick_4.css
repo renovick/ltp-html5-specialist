@@ -1,0 +1,22 @@
+h1
+{
+    font-family: Arial;
+    font-size: 1.75mem;
+    font-weight: bold;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: cornflowerblue;
+}
+h2
+{
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+p
+{
+    line-height: 2em;
+    text-align: left;
+    font-family: Arial;
+}
