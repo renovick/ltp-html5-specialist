@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Section 13</title>
+        <style>
+            form {
+                padding: 10px;
+                background-color:darkgrey;
+                width: 50%;
+            }
+            .container {
+                margin: 20px;
+            }
+            button {
+                font-weight: bold;
+                font-size: 1em;
+                background-color: green;
+                text-align: center;
+                display: inline-block;
+                padding: 10px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form>
+            <div class="container">
+            <label for="firstName">First Name</label><br/>
+            <input text="text" id="firstName" name="firstName" />
+            </div>
+            
+            <div class="container">
+            <label for="lastName">Last Name</label><br/>
+            <input type="text" id="lastName" name="lastName" />
+            </div>
+            
+            <div class="container">
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email" />
+            </div>
+            
+            <div class="container">
+            <label for="phone">Contact Number</label><br/>
+            <input type="tel" id="phone" name="phone"/>
+            </div>
+            
+            <div class="container">
+            <label for="comment">Comment</label><br/>
+            <textarea id="comment" name="comment" rows="5"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button formaction="https://www.w3docs.com">Visit Us!</button>
+        </form>
+    </body>
+</html>
